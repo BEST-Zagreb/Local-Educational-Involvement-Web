@@ -25,3 +25,9 @@ Personal contact details were checked for as on the other BEST archives; the blo
 `tools/lei-freeze.sh` in the migration notes alongside the other archives does it end to end while the blog is still up: `lei-pages.py` lists the pages, `lei-strip.py` removes the chrome, `lei-assets.py` fetches and relinks the assets, then the shared verify, compare and crawl tools run. Two runs produce the same folder byte for byte.
 
 The Twenty Twenty-Four theme fonts (Inter, Cardo) are under the SIL Open Font License; the content and images belong to BEST Zagreb.
+
+## Wayback Machine
+
+The blog ran at <https://localeducationalinvolvement.wordpress.com/> and the redirect page at <https://lei.best.hr/>. The calendars are <https://web.archive.org/web/*/https://localeducationalinvolvement.wordpress.com/*> and <https://web.archive.org/web/*/https://lei.best.hr/*>.
+Checked on 2026-09-11: the archive held nothing at all for the blog before a capture was requested that day. For lei.best.hr it holds 6 URLs, one of them an HTML page, captured between 2024-03-29 and 2025-01-25.
+This repository is the complete copy of the blog; the archive is a partial, independent second copy at best.
