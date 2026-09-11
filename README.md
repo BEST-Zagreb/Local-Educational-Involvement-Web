@@ -2,7 +2,7 @@
 
 Static archive of the LEI blog that ran at `localeducationalinvolvement.wordpress.com`. LEI was a one day student conference held by BEST Zagreb with the Student Council of the University of Zagreb on 12 April 2024 (Kino Forum, SD Stjepan Radić), with talks and panels on STEM higher education and engineering careers. This repository used to hold a one page redirect to that blog; the blog itself is now archived here as plain HTML, and it is the only copy, since the Wayback Machine never captured the site.
 
-Live at <https://best-zagreb.github.io/Local-Educational-Involvement-Web/>.
+Live at <https://lei.best.hr/>.
 
 ## What is in it
 
@@ -25,6 +25,11 @@ Personal contact details were checked for as on the other BEST archives; the blo
 `tools/lei-freeze.sh` in the migration notes alongside the other archives does it end to end while the blog is still up: `lei-pages.py` lists the pages, `lei-strip.py` removes the chrome, `lei-assets.py` fetches and relinks the assets, then the shared verify, compare and crawl tools run. Two runs produce the same folder byte for byte.
 
 The Twenty Twenty-Four theme fonts (Inter, Cardo) are under the SIL Open Font License; the content and images belong to BEST Zagreb.
+
+## Hosting
+
+Live at <https://lei.best.hr/>, served by Cloudflare Workers as static files straight from this repository.
+This repository is archived and read-only: the site it holds is finished. If something must change, unarchive it, push to `main`, and Workers Builds redeploys within a minute or two.
 
 ## Wayback Machine
 
